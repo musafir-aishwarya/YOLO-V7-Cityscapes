@@ -2,7 +2,7 @@
 
 echo "Step 1: Download Cityscapes Dataset"
 echo "1-1: Login to Cityscapes, you should provide your username and password"
-wget --keep-session-cookies --save-cookies=cookies.txt --post-data 'username={your_username}&password={your_password}&submit=Login' https://www.cityscapes-dataset.com/login/
+wget --keep-session-cookies --save-cookies=cookies.txt --post-data 'username={adhore}&password={U59$j6-.Av4wE6c}&submit=Login' https://www.cityscapes-dataset.com/login/
 echo "1-2: Download `gtFine_trainvaltest.zip` with packageID 1"
 wget --load-cookies cookies.txt --content-disposition https://www.cityscapes-dataset.com/file-handling/?packageID=1
 echo "1-3: Download `leftImg8bit_trainvaltest.zip` with packageID 3"
